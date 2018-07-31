@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="45dp">
+
+        <RelativeLayout
+            android:id="@+id/lr_left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="45dp"
+            android:background="@color/black"
+            android:scaleType="centerCrop"
+            app:layout_aspectRatio="150%"
+            app:layout_heightPercent="50%">
+
+            <com.example.a83776.demo.widget.nicevideoplayer.NiceVideoPlayer
+                android:id="@+id/video_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:padding="0.9dp">
+            </com.example.a83776.demo.widget.nicevideoplayer.NiceVideoPlayer>
+
+            <TableLayout
+                android:id="@+id/hud_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="#77000000"
+                android:visibility="gone">
+            </TableLayout>
+
+            <View
+                android:id="@+id/view_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:layout_aspectRatio="150%"
+                app:layout_heightPercent="50%"/>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="@style/ProgressBar.Circle"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/selector_button_music_play"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </android.support.percent.PercentRelativeLayout>
+</ScrollView>

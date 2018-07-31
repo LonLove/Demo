@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="empty"></string>
+    <string name="action_settings">Settings</string>
+    <string name="login">登录</string>
+    <string name="done">完成</string>
+    <string name="network_is_not_available">网络连接失败，请检查你的网络设置</string>
+    <string name="permission_is_not_available">权限不足，请检查你的权限设置</string>
+    <string name="logout">注销</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="clear_empty">清空</string>
+    <string name="iknow">知道了</string>
+    <string name="send">发送</string>
+    <string name="unknow_size">未知大小</string>
+    <string name="join">进入</string>
+    <string name="about">关于</string>
+    <string name="setting">设置</string>
+    <string name="kickout_notify">下线通知</string>
+    <string name="kickout_content">你的帐号被踢出下线，请确定帐号信息安全</string>
+    <string name="copyright">Copyright ©1997-2017 网易公司版权所有</string>
+    <string name="nim_status_unlogin">未登录</string>
+    <string name="server_broken">与服务器连接断开</string>
+    <string name="net_broken">当前网络不可用</string>
+    <string name="leave">离开</string>
+    <string name="chatroom_status_exception">聊天室连接状态异常</string>
+
+    <!-- 登录/注册 -->
+    <string name="login_hint_account">请输入帐号</string>
+    <string name="login_hint_password">请输入密码</string>
+    <string name="input_account">请输入帐号，限20位字母或者数字</string>
+    <string name="input_nickname">请输入昵称，限10位汉字、字母或者数字</string>
+    <string name="input_password">请输入密码，6~20位字母或者数字</string>
+    <string name="register">注册</string>
+    <string name="login_failed">登陆直播帐号或密码错误</string>
+    <string name="login_has_account">已有帐号？直接登录</string>
+    <string name="logining">登录中\u2026</string>
+    <string name="registering">注册中\u2026</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_failed">注册失败,错误码%1$d:%2$s</string>
+    <string name="register_account_tip">帐号限20位字母或者数字</string>
+    <string name="register_nick_name_tip">昵称限10位汉字、字母或者数字</string>
+    <string name="register_password_tip">密码必须为6~20位字母或者数字</string>
+
+    <string name="timer_default">00:00</string>
+    <string name="recording_cancel">手指上滑，取消发送</string>
+    <string name="recording_error">录音失败，请重试</string>
+    <string name="recording_init_failed">初始化录音失败</string>
+    <string name="record_audio">按住 说话</string>
+    <string name="record_audio_end">松开  结束</string>
+    <string name="recording_cancel_tip">松开手指，取消发送</string>
+    <string name="recording_max_time">录音达到最大时间，是否发送？</string>
+
+    <string name="repeat_download_message">重新下载?</string>
+    <string name="repeat_send_has_blank">重 发</string>
+    <string name="repeat_send_message">重发消息?</string>
+    <string name="copy_has_blank">复 制</string>
+    <string name="delete_has_blank">删 除</string>
+
+    <string name="unsupport_title">无法显示该内容</string>
+    <string name="unsupport_desc">客户端版本不支持该内容</string>
+
+    <string name="input_panel_guess">猜 拳</string>
+
+
+    <string name="my_classes">我的直播课程</string>
+    <string name="identity_tips">请选择你的身份，开始体验</string>
+    <string name="master_client">主播端</string>
+    <string name="audience_client">观众端</string>
+    <string name="live_start">开始直播</string>
+    <string name="live_prepare">准备中...</string>
+    <string name="finish_confirm">确定结束直播？</string>
+    <string name="confirm">确定</string>
+    <string name="room_id_tip">请输入直播间ID号</string>
+    <string name="send_gift">送了</string>
+    <string name="no_gift">当前还没收到礼物</string>
+    <string name="live_finish">直播已结束</string>
+    <string name="return_back">返回</string>
+    <string name="loading">连接中，请等待...</string>
+    <string name="live_mode_tip">请选择直播方式</string>
+    <string name="video_live">视频直播</string>
+    <string name="audio_live">语音直播</string>
+    <string name="no_apply">当前没收到连线申请</string>
+    <string name="i_want_to">我要与主播</string>
+    <string name="video_link">视频连线</string>
+    <string name="audio_link">语音连线</string>
+    <string name="video_applying">已申请与主播视频连线</string>
+    <string name="audio_applying">已申请与主播语音连线</string>
+    <string name="cancel_link">取消连线</string>
+    <string name="video_loading">正在连接中...</string>
+    <string name="interaction_video_close_title">结束当前\n视频互动？</string>
+    <string name="interaction_audio_close_title">结束当前\n语音互动？</string>
+    <string name="video_closed">视频连线结束</string>
+    <string name="audio_closed">语音连线结束</string>
+    <string name="interaction">互动</string>
+    <string name="beauty_close">美颜已关闭</string>
+    <string name="beauty_open">美颜已打开</string>
+    <string name="flash_close">闪光灯已关闭</string>
+    <string name="flash_open">闪光灯已打开</string>
+    <string name="flash_failed">无法打开闪光灯</string>
+    <string name="network_excellent">网络流畅</string>
+    <string name="network_good">网络正常</string>
+    <string name="network_poor">网络较差</string>
+    <string name="network_bad">网络极差</string>
+    <string name="reduce_live_clarity">建议降低直播清晰度</string>
+    <string name="switch_to_audio_live">建议切换为音频直播</string>
+    <string name="background_music_song_first_play">歌曲1</string>
+    <string name="background_music_song_first_pause">歌曲1（播放中...）</string>
+    <string name="background_music_song_second_play">歌曲2</string>
+    <string name="background_music_song_second_pause">歌曲2（播放中...）</string>
+    <string name="shot_success">截图已保存</string>
+    <string name="shot_failed">截图失败</string>
+    <string name="share_address_dialog_title">拉流地址已复制</string>
+    <string name="share_address_dialog_message">请在拉流播放器中粘贴地址观看直播</string>
+    <string name="share_address_dialog_know">知道了</string>
+</resources>
